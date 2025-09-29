@@ -101,8 +101,8 @@ export default function Header() {
             className={styles.logo}
             src="/logo.png"
             alt="logo de l'entreprise"
-            width={140}
-            height={140}
+            width={130}
+            height={130}
           />
         </Link>
       <div className={styles.buttonBox}>
