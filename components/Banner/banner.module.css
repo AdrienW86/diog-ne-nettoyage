@@ -48,8 +48,6 @@
   line-height: 1.7rem;
 }
 
-
-
 .btn {
   display: flex;
   flex-direction: column;
@@ -97,4 +95,9 @@
   .subtitle {
     display: none;
   } 
+  
+  .btn {
+    height: 30px;
+    width: 120px;
+  }
 } 
