@@ -44,7 +44,7 @@ export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) 
           <p className= {styles.subtitle}> Expert du nettoyage extrême </p>
           <p className={styles.p}> 
             Entreprise spécialisée dans le nettoyage et la désinfection extrême, 
-            notre exptertise saura venir à bout des cas les plus extrêmes : syndrôme de diogène, nettoyage post-mortem, désinfection extrême
+            notre expertise saura venir à bout des cas les plus extrêmes : syndrôme de diogène, nettoyage post-mortem, désinfection extrême
             et autres cas difficiles. Discrétion et efficacité assurées.  <br/>
             Nous intervenons dans toute la france. Plus d'informations sur demande.</p>
           <div className={styles.btnContainer}>

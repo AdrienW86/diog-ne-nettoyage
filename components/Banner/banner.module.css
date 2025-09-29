@@ -87,3 +87,14 @@
     font-size: 1.2rem;
   } 
 } 
+
+@media screen and (max-width: 380px) {
+
+  .h1 {
+    font-size: 1.3rem;  
+  }
+
+  .subtitle {
+    display: none;
+  } 
+} 
