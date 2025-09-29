@@ -72,7 +72,7 @@ export default function Header() {
     <header className={styles.header}>
       <motion.a
         className={styles.call}
-        href="tel:0651368373"
+        href="tel:0600000000"
         ref={ref2}
         initial={{ opacity: 0, x: -300 }}     // départ à gauche
         animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : -100 }}
