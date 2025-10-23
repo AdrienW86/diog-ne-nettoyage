@@ -52,7 +52,7 @@ export default function ContactForm() {
         value={formData.name}
         onChange={handleChange}
         required
-         style={{ width: "100%", padding: "10px", marginBottom: "10px", backgroundColor: "white" }}
+        style={{ width: "100%", padding: "10px", marginBottom: "10px", backgroundColor: "white", border: "1px solid black" }}
       />
       <input
         type="email"
@@ -61,7 +61,7 @@ export default function ContactForm() {
         value={formData.email}
         onChange={handleChange}
         required
-        style={{ width: "100%", padding: "10px", marginBottom: "10px", backgroundColor: "white" }}
+        style={{ width: "100%", padding: "10px", marginBottom: "10px", backgroundColor: "white", border: "1px solid black" }}
       />
       <input
         type="tel"
@@ -69,7 +69,7 @@ export default function ContactForm() {
         placeholder="Votre téléphone"
         value={formData.phone}
         onChange={handleChange}
-         style={{ width: "100%", padding: "10px", marginBottom: "10px", backgroundColor: "white" }}
+        style={{ width: "100%", padding: "10px", marginBottom: "10px", backgroundColor: "white", border: "1px solid black" }}
       />
       <textarea
         name="message"
@@ -78,7 +78,7 @@ export default function ContactForm() {
         onChange={handleChange}
         required
         rows="5"
-         style={{ width: "100%", padding: "10px", marginBottom: "10px", backgroundColor: "white" }}
+        style={{ width: "100%", padding: "10px", marginBottom: "10px", backgroundColor: "white", border: "1px solid black" }}
       />
       <button type="submit" className={styles.btn}>
         Envoyer
