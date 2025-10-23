@@ -1,4 +1,5 @@
 import Banner from '@/components/Banner/Banner'
+import Services from '@/components/Services/Services'
 
 export const metadata = {
   title: "Diogène Nettoyage - Nettoyage spécialisé et désinfection",
@@ -11,6 +12,7 @@ export default function Home() {
     <div >
       <main >
        <Banner />
+       <Services />
       </main>  
     </div>
   );
