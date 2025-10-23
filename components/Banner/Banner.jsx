@@ -7,8 +7,7 @@ import styles from './banner.module.css';
 const videos = [
   '/video.mp4',
   '/video2.mp4',
-  '/video3.mp4',
-  
+  '/video3.mp4', 
 ];
 
 export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) {
@@ -47,8 +46,7 @@ export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) 
             notre expertise saura venir à bout des cas les plus extrêmes : syndrôme de diogène, nettoyage post-mortem, désinfection extrême
             et autres cas difficiles. Discrétion et efficacité assurées.  <br/>
             Nous intervenons dans toute la france. Plus d'informations sur demande.</p>
-          <div className={styles.btnContainer}>
-            
+          <div className={styles.btnContainer}>            
             <motion.a
               className={styles.btn}
               href="tel:0600000000"
@@ -62,7 +60,6 @@ export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) 
             </motion.a>
           </div> 
       </div>
-
       <div className={styles.carouselInner}>
         {videos.map((video, index) => (
           <video

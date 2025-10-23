@@ -63,8 +63,8 @@ export default function Header() {
     { href: "/", label: "Accueil" },
     { href: "/diogene", label: "Syndrôme de Diogène" },
     { href: "/post-mortem", label: "Nettoyage post-mortem" },
-    { href: "/extreme", label: "Nettoyage extrême" },
-    { href: "/désinfection", label: "Désinfection" },
+    { href: "/nettoyage-extreme", label: "Nettoyage extrême" },
+    { href: "/desinfection", label: "Désinfection" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -72,25 +72,27 @@ export default function Header() {
     <header className={styles.header}>
       <motion.a
         className={styles.call}
-        href="tel:0600000000"
+        href="tel:0751150332"
         ref={ref2}
-        initial={{ opacity: 0, x: -300 }}     // départ à gauche
+        initial={{ opacity: 0, x: -300 }}
         animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : -100 }}
         exit={{ opacity: 0, x: -300 }}
         transition={{ duration: 0.3 }}
       >
-       06.51.36.83.73
+       07.51.15.03.32
       </motion.a>
-      <motion.div
-        className={styles.rge}
-        ref={ref2}
-        initial={{ opacity: 0, x: 300 }}      // départ à droite
-        animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 100 }}
-        exit={{ opacity: 0, x: 300 }}
-        transition={{ duration: 0.3 }}
-      >
-        Devis gratuit
-      </motion.div>
+      <Link href="/contact">
+        <motion.div
+          className={styles.rge}
+          ref={ref2}
+          initial={{ opacity: 0, x: 300 }}
+          animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 100 }}
+          exit={{ opacity: 0, x: 300 }}
+          transition={{ duration: 0.3 }}
+        >
+          Devis gratuit
+        </motion.div>
+      </Link>
         <Link href="/">
           <motion.img
             ref={ref1}
