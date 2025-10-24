@@ -1,4 +1,7 @@
 import React from 'react'
+import SimpleBanner from '@/components/SimpleBanner/SimpleBanner'
+import Menu from '@/components/Menu/Menu'
+import { servicesData } from '@/servicesData'
 
 export const metadata = {
   title: "Syndrome de Diogène - Diogène Nettoyage",
@@ -6,7 +9,17 @@ export const metadata = {
 }
 
 export default function page() {
+  const { intro, solution, description } = servicesData.diogene;
   return (
-    <div>page</div>
+   <>
+    <SimpleBanner url = "/diogene2.png" txt = "Syndrôme de Diogène"/>
+     <Menu
+        intro={intro}
+        solution={solution}
+        description={description}
+        backgroundImage="/diogene.png"
+        backgroundImage2="/extreme.png"
+      />
+   </>
   )
 }

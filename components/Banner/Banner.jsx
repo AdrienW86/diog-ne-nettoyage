@@ -49,7 +49,7 @@ export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) 
           <div className={styles.btnContainer}>            
             <motion.a
               className={styles.btn}
-              href="tel:0600000000"
+              href="tel:0751150332"
               ref={ref2}
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 50 }}
