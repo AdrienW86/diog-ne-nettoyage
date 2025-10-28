@@ -18,7 +18,7 @@ export default function page() {
       solution={solution}
       description={description}
       backgroundImage="/diogene.png"
-      ackgroundImage2="/extreme.png"
+      backgroundImage2="/extreme.png"
     />
    </>
   )

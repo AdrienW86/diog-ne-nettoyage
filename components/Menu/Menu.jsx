@@ -5,7 +5,10 @@ export default function Menu({ intro, solution, description, backgroundImage, ba
    return (
     <section className={styles.section}>
       <p className={styles.intro}>{intro}</p>
-      <p className={styles.solution} style={{ backgroundImage: `url(${backgroundImage})` }}>{solution}</p>
+      <div className={styles.solution} style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <p>{solution}</p>
+    </div>
       <ul className={styles.intervention}>
         {description.map((item, index) => (
           <li key={index} className={styles.li}>{item}</li>

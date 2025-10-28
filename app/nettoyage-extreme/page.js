@@ -12,13 +12,13 @@ export default function page() {
   const { intro, solution, description } = servicesData.diogene;
   return (
     <>
-     <SimpleBanner url = "/diogene.png" txt = "Nettoyage Etrême"/>
+     <SimpleBanner url = "/diogene.png" txt = "Nettoyage Extrême"/>
      <Menu
       intro={intro}
       solution={solution}
       description={description}
       backgroundImage="/diogene.png"
-      ackgroundImage2="/extreme.png"
+      backgroundImage2="/extreme.png"
     />
     </>
   )
